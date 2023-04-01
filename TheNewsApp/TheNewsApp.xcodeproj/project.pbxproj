@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		945DE19B29CB51E100C55AEC /* Onboard.json in Resources */ = {isa = PBXBuildFile; fileRef = 9475864329C21A0500019824 /* Onboard.json */; };
+		945DE1C629CF6C3700C55AEC /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DE1C529CF6C3700C55AEC /* ListController.swift */; };
+		945DF74629C2245800D920BD /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DF74529C2245800D920BD /* Constans.swift */; };
+		945DF74829C2271400D920BD /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DF74729C2271400D920BD /* HomeController.swift */; };
+		945DF74A29C2272900D920BD /* ArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DF74929C2272900D920BD /* ArticleController.swift */; };
+		945DF74C29C2293E00D920BD /* NewsFirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DF74B29C2293E00D920BD /* NewsFirstCollectionViewCell.swift */; };
 		9475862529C071D700019824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475862429C071D700019824 /* AppDelegate.swift */; };
 		9475862729C071D700019824 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475862629C071D700019824 /* SceneDelegate.swift */; };
 		9475862929C071D700019824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475862829C071D700019824 /* ViewController.swift */; };
@@ -15,11 +21,16 @@
 		9475863129C071D800019824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9475863029C071D800019824 /* Assets.xcassets */; };
 		9475863429C071D800019824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9475863229C071D800019824 /* LaunchScreen.storyboard */; };
 		9475863E29C087F400019824 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475863D29C087F400019824 /* RegisterController.swift */; };
-		9475864029C0D0CA00019824 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475863F29C0D0CA00019824 /* TabBarController.swift */; };
-		9475864229C0D41800019824 /* ProfilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475864129C0D41800019824 /* ProfilController.swift */; };
+		9475864229C0D41800019824 /* FavoritController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475864129C0D41800019824 /* FavoritController.swift */; };
+		948DC41629D1138700A6771B /* NewsFavoritCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948DC41529D1138700A6771B /* NewsFavoritCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		945DE1C529CF6C3700C55AEC /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		945DF74529C2245800D920BD /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		945DF74729C2271400D920BD /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		945DF74929C2272900D920BD /* ArticleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleController.swift; sourceTree = "<group>"; };
+		945DF74B29C2293E00D920BD /* NewsFirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFirstCollectionViewCell.swift; sourceTree = "<group>"; };
 		9475862129C071D700019824 /* TheNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9475862429C071D700019824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9475862629C071D700019824 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,9 +41,9 @@
 		9475863329C071D800019824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9475863529C071D800019824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9475863D29C087F400019824 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
-		9475863F29C0D0CA00019824 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		9475864129C0D41800019824 /* ProfilController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilController.swift; sourceTree = "<group>"; };
-		9475864329C21A0500019824 /* .json.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = .json.geojson; sourceTree = "<group>"; };
+		9475864129C0D41800019824 /* FavoritController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritController.swift; sourceTree = "<group>"; };
+		9475864329C21A0500019824 /* Onboard.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Onboard.json; sourceTree = "<group>"; };
+		948DC41529D1138700A6771B /* NewsFavoritCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFavoritCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,14 +80,19 @@
 				9475862629C071D700019824 /* SceneDelegate.swift */,
 				9475862829C071D700019824 /* ViewController.swift */,
 				9475863D29C087F400019824 /* RegisterController.swift */,
-				9475863F29C0D0CA00019824 /* TabBarController.swift */,
-				9475864129C0D41800019824 /* ProfilController.swift */,
+				945DF74729C2271400D920BD /* HomeController.swift */,
+				945DE1C529CF6C3700C55AEC /* ListController.swift */,
+				945DF74929C2272900D920BD /* ArticleController.swift */,
+				945DF74B29C2293E00D920BD /* NewsFirstCollectionViewCell.swift */,
+				948DC41529D1138700A6771B /* NewsFavoritCollectionViewCell.swift */,
+				945DF74529C2245800D920BD /* Constans.swift */,
 				9475862A29C071D700019824 /* Main.storyboard */,
+				9475864329C21A0500019824 /* Onboard.json */,
 				9475863029C071D800019824 /* Assets.xcassets */,
-				9475864329C21A0500019824 /* .json.geojson */,
 				9475863229C071D800019824 /* LaunchScreen.storyboard */,
 				9475863529C071D800019824 /* Info.plist */,
 				9475862D29C071D700019824 /* TheNewsApp.xcdatamodeld */,
+				9475864129C0D41800019824 /* FavoritController.swift */,
 			);
 			path = TheNewsApp;
 			sourceTree = "<group>";
@@ -140,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9475863429C071D800019824 /* LaunchScreen.storyboard in Resources */,
+				945DE19B29CB51E100C55AEC /* Onboard.json in Resources */,
 				9475863129C071D800019824 /* Assets.xcassets in Resources */,
 				9475862C29C071D700019824 /* Main.storyboard in Resources */,
 			);
@@ -154,11 +171,16 @@
 			files = (
 				9475862929C071D700019824 /* ViewController.swift in Sources */,
 				9475862529C071D700019824 /* AppDelegate.swift in Sources */,
+				945DF74629C2245800D920BD /* Constans.swift in Sources */,
 				9475863E29C087F400019824 /* RegisterController.swift in Sources */,
-				9475864029C0D0CA00019824 /* TabBarController.swift in Sources */,
+				945DF74A29C2272900D920BD /* ArticleController.swift in Sources */,
+				945DF74829C2271400D920BD /* HomeController.swift in Sources */,
+				945DF74C29C2293E00D920BD /* NewsFirstCollectionViewCell.swift in Sources */,
 				9475862F29C071D700019824 /* TheNewsApp.xcdatamodeld in Sources */,
 				9475862729C071D700019824 /* SceneDelegate.swift in Sources */,
-				9475864229C0D41800019824 /* ProfilController.swift in Sources */,
+				948DC41629D1138700A6771B /* NewsFavoritCollectionViewCell.swift in Sources */,
+				945DE1C629CF6C3700C55AEC /* ListController.swift in Sources */,
+				9475864229C0D41800019824 /* FavoritController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

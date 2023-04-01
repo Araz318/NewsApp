@@ -29,15 +29,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if window == nil {
             window = UIWindow (windowScene: windowScene )
         }
-        window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "UiTabBarController")
-        as! UITabBarController; window?.makeKeyAndVisible()
+        window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarController")
+        as! UITabBarController
+        window?.makeKeyAndVisible()
         
     }
     func setLoginRootController(windowScene: UIWindowScene) {
         if window == nil {
             window = UIWindow(windowScene: windowScene)
         }
-        window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginNav") as! UINavigationController
+        window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "homNav2") as! UINavigationController
         window?.makeKeyAndVisible()
         
         
